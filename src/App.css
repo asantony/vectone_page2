@@ -1,0 +1,416 @@
+.vectone-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+  /*   position: fixed; */
+    background: white;
+    top: 0px;
+    z-index: 1000;
+}
+.vectone-header > div {
+    display: inline;
+}
+.vectone-logo{
+    margin-left: 60px;
+}
+.vectone-phone{
+    margin-right: 60px;
+}
+
+.mobile-vectone-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+    position: fixed;
+    background: white;
+    top: 0px;
+}
+.mobile-vectone-header .logo_icon{
+    width: 25%;
+}
+
+
+.vectone-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0px 20px 0px;
+}
+.vectone-footer-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vectone-alrights{
+   padding-right: 60px !important;
+   text-align: right;
+}
+.vectone-alrights p{
+    margin: 0px !important;
+    font-family: Helvetica !important;
+  font-size:14px;
+  letter-spacing: 0.28px;
+  color: #9B9B9B;
+
+}
+.vectone-footer-logo{
+    margin-left: 60px !important;
+}
+.hangouticon{
+    background: #1D76F2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 21px #00000029;
+    border-radius: 50%;
+    opacity: 1;
+    display: grid;
+    place-items: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 60px;
+    z-index: 1000;
+}
+
+.mob-vectone-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.mob-vectone-footer .mob-vectone-footer-row{
+    display: table;
+    place-items: center;
+    margin: 0 auto;
+    text-align: center;
+font-family: Helvetica !important;
+font-size: 14px;
+letter-spacing: 0.28px;
+color: #9B9B9B;
+}
+.mob-vectone-footer .logo_icon{
+    width: 65%;
+}
+/* Banner css Here */
+.web-bannercontainer{
+  height: 440px;
+  background: #ECF3FF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+}
+
+.web-bannercontainer .texttitle{
+    padding-top: 25px;
+    text-align: center;
+    font-family: Acumin Pro !important;
+    font-size: 38px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: bold;
+}
+.userrangecontainer{
+    text-align: right;
+    padding-right: 80px !important;
+}
+.userrange{
+  padding-right: 10px;
+  font-family: Helvetica;
+}
+.userbackground{
+  background: #C8DCFD 0% 0% no-repeat padding-box;
+  border: 1px solid #B9D1F8;
+  border-radius: 22px;
+}
+.bothrange{
+  padding: 0px 10px;
+}
+.centerrange{
+  background: #1660EA 0% 0% no-repeat padding-box;
+  border-radius: 17px;
+  padding: 0px 10px;
+  color: white;
+}
+.userrangecontainer p{
+  margin: 0px;
+}
+.monthly{
+  text-align: left;
+}
+.monthly p{
+  margin: 0px;
+}
+.userrangetitle{
+  padding-right: 10px;
+  color:#032C7E
+}
+.bothsidemonth{
+  padding: 0px 10px;
+  color:#1660EA;
+  border-bottom: 4px solid #1660EA;
+}
+.onesidemonth{
+  padding: 0px 0px 0px 10px;
+}
+.rightsidemonth{
+  padding: 0px 10px 0px 0px;
+}
+.centersidemonth{
+  padding: 0px 10px;
+}
+.monthlyborder{
+  font-family: Helvetica;
+  border-bottom: 1px solid #aaa;
+  position: absolute;
+}
+.rangemonthlycontainer{
+  margin-top: 30px !important;
+}
+
+/* Maincontent css */
+.typecontainer{
+  margin-top: -250px;
+  /* padding: 10px; */
+}
+.typecontainerHolder{
+  padding: 60px !important;
+}
+.startercontainer , .standardcontainer , .professionalcontainer , .enterprisecontainer{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #D9D9D9;
+  border-radius: 12px;
+  height:650px;
+}
+.professionalcontainer{
+   height:670px;
+   margin-top: -20px;
+}
+
+/* Card Item Css */
+.assignmargin{
+  margin: 20px 20px;
+}
+.cardtitle{
+  font-family: Helvetica regular !important;
+   font-size: 22px;
+   font-style: normal;
+  letter-spacing: 0px;
+  color: #1D76F2;
+}
+.cardprice{
+  display: block;
+  text-align: left;
+   font-family: Helvetica medium !important;
+   font-size: 44px;
+   font-style: normal;
+   font-weight: bold;
+  letter-spacing: 0px;
+  color: #1D76F2;
+  text-transform: uppercase;
+  opacity: 1;
+  
+}
+.cardusermonthly{
+  font-family: Helvetica !important;
+   font-size: 14px;
+   font-style: normal;
+  letter-spacing: 0px;
+  color: #0B0B0B;
+  opacity: 1;
+  position: relative;
+  top: -12px;
+}
+.bluebtn{
+  display: grid;
+    place-items: center;
+margin: 17px 15px;
+background: #1D76F2 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+height: 48px;
+}
+.buytxt{
+  margin: 0 auto !important;
+  color: #FFFFFF;
+  font-family: Acumin Pro !important;
+}
+.whitebtn{
+  display: grid;
+    place-items: center;
+margin: 17px 15px;
+border: 1px solid #E2CCFF;
+border-radius: 4px;
+opacity: 1;
+height: 48px;
+}
+.trailtxt{
+  margin: 0 auto !important;
+  color: #0D66E2;
+  font-family: Acumin Pro !important;
+}
+.cardno{
+  text-align: center;
+  color: #706D75;
+  font-family: Acumin Pro !important;
+  margin: -10px auto 0px auto;
+
+}
+
+.cardplan{
+text-align: left;
+font-family: Acumin Pro !important;
+font-size: 15px;
+font-weight: bold;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin: 20px auto 0px auto;
+}
+.cardtxt{
+
+text-align: left;
+font-family: Helvetica normal;
+font-size: 12px;
+line-height: 2.6;
+color: #706D75;
+opacity: 1;
+margin: 20px auto;
+}
+
+/* compareplanscss */
+.buttonHoldercardno{
+  text-align: center;
+  color: #706D75;
+  font-family: Acumin Pro !important;
+  font-size: 10px;
+  margin: -10px auto 0px auto;
+}
+.compareplanscontainer{
+  margin: 0 auto;
+}
+.comparetexttitle{
+  text-align: center;
+}
+.compareplanstypecontainerHolder{
+  padding: 60px !important;
+}
+
+.comparecardtitle{
+  text-align: center;
+}
+.comparerecommonded{
+  display: grid;
+  place-items: center;
+}
+.compareplansstartercontainer{
+  text-align: left;
+  font-family: Acumin Pro !important;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.contactnum{
+  text-align: left;
+   font-family: Acumin Pro !important;
+  font-size: 16px;
+
+letter-spacing: 0.32px;
+color: #1D76F2;
+text-transform: uppercase;
+}
+
+.featuretable{
+  background-color: #F4F7FF;
+  border-radius: 25px;
+  opacity: 1;
+}
+.dcolor{
+  background-color: #EBF0FD !important;
+  opacity: 1;
+}
+.compareplanstable{
+  padding: 60px !important;
+}
+.setcolwidth >td{
+  width: 20%;
+  padding-left: 20px !important;
+}
+
+.lastrow{
+  border:transparent
+}
+.imgstyle{
+  width: 5%;
+}
+.tdtile{
+  text-align: left;
+  font-family: Acumin Pro !important;
+  font-size: 12px;
+  letter-spacing: 0.28px;
+  color: #032C7E;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.mobtexttitle{
+  text-align: center !important;
+}
+.mobtexttitle >h2{
+  margin-top: 25px;
+}
+.mob-userrangecontainer{
+  text-align: center !important;
+}
+.mob-monthly{
+  margin:15px auto !important;
+  text-align: center !important;
+}
+.mobmonthcontainer{
+  margin: 5px auto 15px auto;
+    display: grid;
+    place-items: center;
+}
+.mobuserrange{
+  margin:20px auto 15px auto;
+}
+.accordion-header{
+  text-decoration: underline;
+}
+.accordion-button:not(.collapsed){
+  color: black !important;
+  border: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.accordion-button{
+  font-size: 13px !important;
+}
+.accordion-button:focus{
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+.accordion-body{
+  text-align: justify;
+  line-height:1.6 rem;
+}
+.accordion-button, .accordion-body{
+  padding: 1rem 5px !important;
+}
+
+@media only screen and (min-width : 321px) {
+  .typecontainerHolder{
+     padding: 30px !important
+
+  }
+}
+.mobuserbackground{
+  background: #C8DCFD 0% 0% no-repeat padding-box;
+  border: 1px solid #B9D1F8;
+  border-radius: 22px;
+  padding:10px;
+}
+.mobuserbackground .centerrange{
+  padding:10px;
+}
+
